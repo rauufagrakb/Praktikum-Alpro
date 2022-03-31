@@ -1,0 +1,9 @@
+
+------------------------------------
+|      Rincian Belanjaan Kamu      |
+------------------------------------
+Menu makanan	: Udang Goreng X 5
+Total Menu		: Rp95000
+Total Ongkir	: Rp20000
+Diskon		: Rp14250
+Total Bayar		: Rp100750,-
