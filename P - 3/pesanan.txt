@@ -1,0 +1,10 @@
+
+------------------------------------
+|      Rincian Belanjaan Kamu      |
+------------------------------------
+Menu makanan	: Ayam Goreng X 5
+Total Menu		: Rp85000,-
+Total Ongkir	: Rp20000,-
+Diskon		: -Rp12750,-
+Total Bayar		: Rp92250,-
+Jarak Rumah		: 7 km
