@@ -7,22 +7,22 @@ class Output{
  	public :
   		void getData(){
   			ifstream infile;
-     		infile.open("pesanan.txt");
-        	index = 0;   
-    		while(!infile.eof()) {
-            	infile >> data[index];
-               	index = index +1;
-            }
-       		infile.close();  
+     			infile.open("pesanan.txt");
+        		index = 0;   
+    			while(!infile.eof()) {
+            			infile >> data[index];
+               			index = index +1;
+            		}
+       			infile.close();  
 		}
   	private :
-      	int data[100], index;
+      		int data[100], index;
 };
 
 ostream& operator<<(ostream& cout, const Output& keluar){
 	cout << "\n------------------------------------\n";
-    cout << "|      Rincian Belanjaan Kamu      |\n";
-    cout << "------------------------------------\n";
+   	cout << "|      Rincian Belanjaan Kamu      |\n";
+    	cout << "------------------------------------\n";
 	    
 	if(keluar.data[0] == 1){
 	 	cout<<"Menu makanan\t: Ayam Geprek"<<" X "<<keluar.data[1]<<endl;
